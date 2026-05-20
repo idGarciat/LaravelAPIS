@@ -1,0 +1,609 @@
+[
+  {
+    "id": true,
+    "nombre": "Pediatría",
+    "descripcion": "Descripcion de Pediatria xd",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 2,
+    "nombre": "Cardiología",
+    "descripcion": "Descripcion de Cardiologia xd",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 3,
+    "nombre": "Odontología,",
+    "descripcion": "Descripcion de Odontologia xd",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 4,
+    "nombre": "Ginecología,",
+    "descripcion": "Descripcion de Ginecologia xd",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 5,
+    "nombre": "Medicina General",
+    "descripcion": "Descripcion de Medicina General xd",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": true,
+    "nombre_completo": "Adrián Ruvalcaba",
+    "especialidad_id": true,
+    "telefono": "+34 981-14-2213",
+    "email": "nquesada@example.org",
+    "estado": "activo",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 2,
+    "nombre_completo": "María Sola",
+    "especialidad_id": 2,
+    "telefono": "+34 987370773",
+    "email": "kalfonso@example.com",
+    "estado": "inactivo",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 3,
+    "nombre_completo": "Iván Garrido",
+    "especialidad_id": 3,
+    "telefono": "+34 938-485289",
+    "email": "bdelao@example.org",
+    "estado": "inactivo",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 4,
+    "nombre_completo": "Lic. Ian Echevarría",
+    "especialidad_id": 4,
+    "telefono": "+34 938-96-5913",
+    "email": "wgodinez@example.com",
+    "estado": "activo",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 5,
+    "nombre_completo": "José Terrazas Hijo",
+    "especialidad_id": 5,
+    "telefono": "925 611448",
+    "email": "guillem.pedroza@example.net",
+    "estado": "inactivo",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 6,
+    "nombre_completo": "Lucía Rojas",
+    "especialidad_id": true,
+    "telefono": "998 021390",
+    "email": "ian.pina@example.org",
+    "estado": "activo",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 7,
+    "nombre_completo": "D. Asier Pantoja Hijo",
+    "especialidad_id": true,
+    "telefono": "+34 926 482328",
+    "email": "hvelez@example.com",
+    "estado": "inactivo",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 8,
+    "nombre_completo": "Encarnación Alonso",
+    "especialidad_id": 4,
+    "telefono": "+34 965-61-3627",
+    "email": "abril.dominguez@example.net",
+    "estado": "activo",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 9,
+    "nombre_completo": "Raquel Bañuelos",
+    "especialidad_id": 3,
+    "telefono": "958-73-2745",
+    "email": "valdivia.oriol@example.net",
+    "estado": "activo",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 10,
+    "nombre_completo": "Lic. Carlota Garay",
+    "especialidad_id": 5,
+    "telefono": "926-474927",
+    "email": "ycorona@example.net",
+    "estado": "inactivo",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": true,
+    "migration": "0001_01_01_000000_create_users_table",
+    "batch": true
+  },
+  {
+    "id": 2,
+    "migration": "0001_01_01_000001_create_cache_table",
+    "batch": true
+  },
+  {
+    "id": 3,
+    "migration": "0001_01_01_000002_create_jobs_table",
+    "batch": true
+  },
+  {
+    "id": 4,
+    "migration": "2026_05_19_162138_create_especialidads_table",
+    "batch": true
+  },
+  {
+    "id": 5,
+    "migration": "2026_05_19_162143_create_medicos_table",
+    "batch": true
+  },
+  {
+    "id": 6,
+    "migration": "2026_05_19_163002_create_pacientes_table",
+    "batch": true
+  },
+  {
+    "id": true,
+    "nombre_completo": "Luis Benito",
+    "email": "bruno69@example.com",
+    "telefono": 922576941,
+    "direccion": "Rúa Ángel, 72, 2º 9º, 64611, Olivo de la Sierra",
+    "fecha_nacimiento": "1975-01-11",
+    "tipo_paciente": "recurrente",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 2,
+    "nombre_completo": "Inmaculada Cabello",
+    "email": "ochoa.eduardo@example.com",
+    "telefono": 976848051,
+    "direccion": "Calle Maldonado, 90, Ático 5º, 74971, Los Naranjo",
+    "fecha_nacimiento": "1979-12-17",
+    "tipo_paciente": "recurrente",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 3,
+    "nombre_completo": "Alma Simón",
+    "email": "hugo07@example.com",
+    "telefono": "+34 935 051755",
+    "direccion": "Paseo Almanza, 2, 2º B, 36207, San Ávila",
+    "fecha_nacimiento": "1999-05-30",
+    "tipo_paciente": "recurrente",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 4,
+    "nombre_completo": "Esther Quiñónez",
+    "email": "aranda.valentina@example.org",
+    "telefono": "959 658801",
+    "direccion": "Travesía Gonzalo, 426, 8º D, 62478, L\\ Izquierdo Alta, 2020-12-03, recurrente, 2026-05-20 17:23:01, 2026-05-20 17:23:01"
+  },
+  {
+    "id": 5,
+    "nombre_completo": "Rafael Marroquín",
+    "email": "rolivo@example.org",
+    "telefono": "+34 998-15-9175",
+    "direccion": "Avinguda Oliva, 432, 5º D, 97824, Gallardo del Puerto",
+    "fecha_nacimiento": "2016-03-27",
+    "tipo_paciente": "recurrente",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 6,
+    "nombre_completo": "Sandra Nájera",
+    "email": "nadia.palacios@example.org",
+    "telefono": "+34 991 214041",
+    "direccion": "Avenida Nerea, 644, 4º D, 72823, Blasco del Bages",
+    "fecha_nacimiento": "2024-03-31",
+    "tipo_paciente": "nuevo",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 7,
+    "nombre_completo": "Miguel Ángel Segovia",
+    "email": "raquel.torrez@example.net",
+    "telefono": "+34 904-436148",
+    "direccion": "Avinguda Salazar, 3, Entre suelo 0º, 54543, La Osorio Medio",
+    "fecha_nacimiento": "2014-10-21",
+    "tipo_paciente": "recurrente",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 8,
+    "nombre_completo": "Rosa Camarillo",
+    "email": "flongoria@example.net",
+    "telefono": "989-571796",
+    "direccion": "Avenida Inmaculada, 670, 68º A, 46685, Vall Ojeda",
+    "fecha_nacimiento": "2020-09-18",
+    "tipo_paciente": "nuevo",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 9,
+    "nombre_completo": "Victoria Santiago",
+    "email": "matos.miriam@example.org",
+    "telefono": "990 521860",
+    "direccion": "Avinguda Munguía, 569, 1º, 78159, Plaza de Lemos",
+    "fecha_nacimiento": "1974-02-02",
+    "tipo_paciente": "recurrente",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 10,
+    "nombre_completo": "Sra. Vega Domínguez Hijo",
+    "email": "teresa93@example.com",
+    "telefono": "+34 947 00 1775",
+    "direccion": "Carrer Palacios, 7, 37º 3º, 92554, Araña de San Pedro",
+    "fecha_nacimiento": "1971-03-09",
+    "tipo_paciente": "nuevo",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 11,
+    "nombre_completo": "Lic. Lara Castillo Tercero",
+    "email": "briseno.yago@example.org",
+    "telefono": "+34 981-96-2450",
+    "direccion": "Avinguda Fuentes, 49, 4º 4º, 51959, El Portillo de Ulla",
+    "fecha_nacimiento": "2026-02-01",
+    "tipo_paciente": "nuevo",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 12,
+    "nombre_completo": "Beatriz Ulibarri Tercero",
+    "email": "nalonzo@example.com",
+    "telefono": "+34 915-713373",
+    "direccion": "Passeig Ávalos, 602, 71º 0º, 06624, O Rosas",
+    "fecha_nacimiento": "2011-11-16",
+    "tipo_paciente": "nuevo",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 13,
+    "nombre_completo": "Miguel Ángel Cerda",
+    "email": "natalia.almonte@example.com",
+    "telefono": "980-554526",
+    "direccion": "Camino Natalia, 32, 4º 2º, 82693, Vall Giménez",
+    "fecha_nacimiento": "1972-11-08",
+    "tipo_paciente": "recurrente",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 14,
+    "nombre_completo": "Óscar Amaya",
+    "email": "paez.fatima@example.com",
+    "telefono": "+34 982 71 1889",
+    "direccion": "Travessera Loera, 53, 9º D, 57626, Santiago de la Sierra",
+    "fecha_nacimiento": "2022-03-19",
+    "tipo_paciente": "recurrente",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 15,
+    "nombre_completo": "María Pilar Bustos Tercero",
+    "email": "vera59@example.org",
+    "telefono": "+34 915 999702",
+    "direccion": "Avenida Martín, 20, 0º C, 56059, Os Casanova del Pozo",
+    "fecha_nacimiento": "2021-04-16",
+    "tipo_paciente": "nuevo",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 16,
+    "nombre_completo": "Ainara Valdez Hijo",
+    "email": "quinonez.maria@example.org",
+    "telefono": "+34 982-473060",
+    "direccion": "Avenida Leal, 8, 3º E, 28628, San Maldonado",
+    "fecha_nacimiento": "1988-10-09",
+    "tipo_paciente": "nuevo",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 17,
+    "nombre_completo": "Lucía Viera",
+    "email": "lucas48@example.com",
+    "telefono": "+34 997 590157",
+    "direccion": "Travesía Valdés, 7, Entre suelo 2º, 39624, Valverde del Bages",
+    "fecha_nacimiento": "2006-01-22",
+    "tipo_paciente": "recurrente",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 18,
+    "nombre_completo": "Dr. Aitor Anaya Tercero",
+    "email": "noelia.vergara@example.com",
+    "telefono": 945739310,
+    "direccion": "Avenida Regalado, 64, 1º C, 96026, Villa Lomeli del Pozo",
+    "fecha_nacimiento": "2004-03-06",
+    "tipo_paciente": "recurrente",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 19,
+    "nombre_completo": "Ariadna Benítez",
+    "email": "valeria.orellana@example.org",
+    "telefono": "+34 937-400682",
+    "direccion": "Travesía Carrillo, 1, 5º 5º, 50068, Altamirano del Penedès",
+    "fecha_nacimiento": "2000-06-15",
+    "tipo_paciente": "recurrente",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 20,
+    "nombre_completo": "Emilia Muro",
+    "email": "wmarquez@example.com",
+    "telefono": "930 596278",
+    "direccion": "Carrer Lorena, 695, 5º C, 08299, A Zayas Medio",
+    "fecha_nacimiento": "2024-05-22",
+    "tipo_paciente": "nuevo",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 21,
+    "nombre_completo": "Óscar Bernal",
+    "email": "diana17@example.org",
+    "telefono": "+34 981-971016",
+    "direccion": "Passeig Carrillo, 37, 4º F, 65018, Gaona de Lemos",
+    "fecha_nacimiento": "1993-09-05",
+    "tipo_paciente": "recurrente",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 22,
+    "nombre_completo": "Marta Paz",
+    "email": "rosado.rodrigo@example.net",
+    "telefono": "+34 982-83-4267",
+    "direccion": "Ronda Urrutia, 26, 01º E, 30030, Ordoñez de Arriba",
+    "fecha_nacimiento": "2019-07-11",
+    "tipo_paciente": "nuevo",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 23,
+    "nombre_completo": "Adrián Candelaria",
+    "email": "zayas.alba@example.com",
+    "telefono": "921-910181",
+    "direccion": "Camiño Aina, 4, 6º, 91576, Villa Casanova",
+    "fecha_nacimiento": "2005-11-18",
+    "tipo_paciente": "recurrente",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 24,
+    "nombre_completo": "Rodrigo Ybarra",
+    "email": "ainhoa.ponce@example.org",
+    "telefono": "+34 948 817297",
+    "direccion": "Passeig Barrientos, 614, 60º F, 60760, El Barroso del Bages",
+    "fecha_nacimiento": "2004-11-27",
+    "tipo_paciente": "nuevo",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 25,
+    "nombre_completo": "Ing. Fátima Jurado Segundo",
+    "email": "marco.puig@example.com",
+    "telefono": "+34 937 68 4601",
+    "direccion": "Travessera Martín, 345, 0º C, 23049, La Carrero",
+    "fecha_nacimiento": "1979-07-28",
+    "tipo_paciente": "recurrente",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 26,
+    "nombre_completo": "Miguel Ángel Santos Segundo",
+    "email": "alba97@example.net",
+    "telefono": "923-735926",
+    "direccion": "Passeig Guzmán, 3, Ático 7º, 54038, Sáenz del Pozo",
+    "fecha_nacimiento": "1973-05-25",
+    "tipo_paciente": "recurrente",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 27,
+    "nombre_completo": "Dña Rosario Delgado Segundo",
+    "email": "victor85@example.net",
+    "telefono": "978-94-0608",
+    "direccion": "Travessera Nayara, 6, 66º A, 87318, San Valle",
+    "fecha_nacimiento": "2005-04-05",
+    "tipo_paciente": "recurrente",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 28,
+    "nombre_completo": "Aurora Verdugo",
+    "email": "glira@example.com",
+    "telefono": "+34 962-46-2284",
+    "direccion": "Ronda Carballo, 390, Ático 0º, 82195, A Amaya",
+    "fecha_nacimiento": "1975-05-13",
+    "tipo_paciente": "nuevo",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 29,
+    "nombre_completo": "Ing. Pol Lugo",
+    "email": "jlucio@example.org",
+    "telefono": "+34 944 69 7600",
+    "direccion": "Plaza Pereira, 3, 8º E, 65019, La Ruiz",
+    "fecha_nacimiento": "2004-11-24",
+    "tipo_paciente": "recurrente",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 30,
+    "nombre_completo": "Sr. Antonio Arredondo",
+    "email": "jon31@example.net",
+    "telefono": "+34 902 667252",
+    "direccion": "Avinguda Chávez, 6, 5º C, 06316, Segura del Pozo",
+    "fecha_nacimiento": "1993-09-27",
+    "tipo_paciente": "nuevo",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 31,
+    "nombre_completo": "Dña Blanca Granados Tercero",
+    "email": "martina.torrez@example.net",
+    "telefono": "+34 988991929",
+    "direccion": "Paseo Gerard, 45, 6º C, 81211, As Robledo",
+    "fecha_nacimiento": "1991-09-04",
+    "tipo_paciente": "nuevo",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 32,
+    "nombre_completo": "Ismael Cabán",
+    "email": "lgodoy@example.net",
+    "telefono": "914 049881",
+    "direccion": "Ronda Arellano, 63, 6º C, 34851, San Anaya",
+    "fecha_nacimiento": "1975-09-16",
+    "tipo_paciente": "nuevo",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 33,
+    "nombre_completo": "Naiara Orellana",
+    "email": "ttellez@example.net",
+    "telefono": "+34 923 170945",
+    "direccion": "Plaza Omar, 9, Ático 8º, 09592, As Piñeiro",
+    "fecha_nacimiento": "2003-03-28",
+    "tipo_paciente": "recurrente",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 34,
+    "nombre_completo": "Alma Valles",
+    "email": "marc32@example.net",
+    "telefono": "+34 949-590431",
+    "direccion": "Paseo Pol, 597, 35º 4º, 98472, L\\ Ayala Baja, 1991-02-15, nuevo, 2026-05-20 17:23:01, 2026-05-20 17:23:01"
+  },
+  {
+    "id": 35,
+    "nombre_completo": "Sonia Ros",
+    "email": "yaiza.olivares@example.org",
+    "telefono": "943 62 8342",
+    "direccion": "Ruela Vidal, 2, 4º F, 60022, Las Apodaca",
+    "fecha_nacimiento": "1976-12-23",
+    "tipo_paciente": "recurrente",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 36,
+    "nombre_completo": "Dña Beatriz Avilés",
+    "email": "ocovarrubias@example.net",
+    "telefono": "942 672700",
+    "direccion": "Ronda Pichardo, 7, 59º E, 48199, San Anaya del Bages",
+    "fecha_nacimiento": "1990-10-17",
+    "tipo_paciente": "nuevo",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 37,
+    "nombre_completo": "Izan Aparicio",
+    "email": "berta88@example.net",
+    "telefono": "945-735154",
+    "direccion": "Plaça Cristina, 32, 45º B, 95595, Vall Juan de San Pedro",
+    "fecha_nacimiento": "2000-06-08",
+    "tipo_paciente": "nuevo",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 38,
+    "nombre_completo": "Lic. Eduardo Cantú Segundo",
+    "email": "icastellanos@example.com",
+    "telefono": "940-05-0469",
+    "direccion": "Travessera Piña, 6, 3º 5º, 32127, Gastélum del Barco",
+    "fecha_nacimiento": "2017-02-08",
+    "tipo_paciente": "recurrente",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 39,
+    "nombre_completo": "Ana Isabel Puente",
+    "email": "celia.valverde@example.org",
+    "telefono": "+34 907 082719",
+    "direccion": "Travesía Marc, 672, 2º B, 11569, La Armijo",
+    "fecha_nacimiento": "2011-08-30",
+    "tipo_paciente": "nuevo",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": 40,
+    "nombre_completo": "Dña Ana María Venegas",
+    "email": "holguin.david@example.org",
+    "telefono": "+34 967 280272",
+    "direccion": "Travesía Biel, 381, 1º, 15280, O Manzano",
+    "fecha_nacimiento": "2012-04-06",
+    "tipo_paciente": "recurrente",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  },
+  {
+    "id": true,
+    "name": "Test User",
+    "email": "test@example.com",
+    "email_verified_at": "2026-05-20 17:23:00",
+    "password": "$2y$12$H.BBUXRoAExnkKf2ejOHqO8qlrw/gvU9okicJ2owRykanWdeJVL26",
+    "remember_token": "T141oSpGeT",
+    "created_at": "2026-05-20 17:23:01",
+    "updated_at": "2026-05-20 17:23:01"
+  }
+]

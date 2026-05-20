@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "nombre_completo": "Laura Hernández",
+    "especialidad_id": 1,
+    "especialidad_nombre": "Medicina General",
+    "telefono": "555-100-0001",
+    "email": "laura.hernandez@example.com",
+    "estado": "Activo",
+    "created_at": "2026-05-19T00:00:00.000Z",
+    "updated_at": "2026-05-19T00:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "nombre_completo": "Carlos Méndez",
+    "especialidad_id": 2,
+    "especialidad_nombre": "Cardiología",
+    "telefono": "555-100-0002",
+    "email": "carlos.mendez@example.com",
+    "estado": "Activo",
+    "created_at": "2026-05-19T00:00:00.000Z",
+    "updated_at": "2026-05-19T00:00:00.000Z"
+  },
+  {
+    "id": 3,
+    "nombre_completo": "Sofía Pérez",
+    "especialidad_id": 3,
+    "especialidad_nombre": "Pediatría",
+    "telefono": "555-100-0003",
+    "email": "sofia.perez@example.com",
+    "estado": "Activo",
+    "created_at": "2026-05-19T00:00:00.000Z",
+    "updated_at": "2026-05-19T00:00:00.000Z"
+  },
+  {
+    "id": 4,
+    "nombre_completo": "Jorge Ramírez",
+    "especialidad_id": 4,
+    "especialidad_nombre": "Dermatología",
+    "telefono": "555-100-0004",
+    "email": "jorge.ramirez@example.com",
+    "estado": "Activo",
+    "created_at": "2026-05-19T00:00:00.000Z",
+    "updated_at": "2026-05-19T00:00:00.000Z"
+  },
+  {
+    "id": 5,
+    "nombre_completo": "Ana Torres",
+    "especialidad_id": 5,
+    "especialidad_nombre": "Neurología",
+    "telefono": "555-100-0005",
+    "email": "ana.torres@example.com",
+    "estado": "Inactivo",
+    "created_at": "2026-05-19T00:00:00.000Z",
+    "updated_at": "2026-05-19T00:00:00.000Z"
+  },
+  {
+    "id": 6,
+    "nombre_completo": "Miguel Salas",
+    "especialidad_id": 6,
+    "especialidad_nombre": "Ortopedia",
+    "telefono": "555-100-0006",
+    "email": "miguel.salas@example.com",
+    "estado": "Activo",
+    "created_at": "2026-05-19T00:00:00.000Z",
+    "updated_at": "2026-05-19T00:00:00.000Z"
+  },
+  {
+    "id": 7,
+    "nombre_completo": "Lucía Navarro",
+    "especialidad_id": 7,
+    "especialidad_nombre": "Oftalmología",
+    "telefono": "555-100-0007",
+    "email": "lucia.navarro@example.com",
+    "estado": "Activo",
+    "created_at": "2026-05-19T00:00:00.000Z",
+    "updated_at": "2026-05-19T00:00:00.000Z"
+  },
+  {
+    "id": 8,
+    "nombre_completo": "Pedro Castillo",
+    "especialidad_id": 8,
+    "especialidad_nombre": "Psiquiatría",
+    "telefono": "555-100-0008",
+    "email": "pedro.castillo@example.com",
+    "estado": "Activo",
+    "created_at": "2026-05-19T00:00:00.000Z",
+    "updated_at": "2026-05-19T00:00:00.000Z"
+  },
+  {
+    "id": 9,
+    "nombre_completo": "Mariana López",
+    "especialidad_id": 9,
+    "especialidad_nombre": "Ginecología",
+    "telefono": "555-100-0009",
+    "email": "mariana.lopez@example.com",
+    "estado": "Activo",
+    "created_at": "2026-05-19T00:00:00.000Z",
+    "updated_at": "2026-05-19T00:00:00.000Z"
+  },
+  {
+    "id": 10,
+    "nombre_completo": "Ricardo Gómez",
+    "especialidad_id": 10,
+    "especialidad_nombre": "Odontología",
+    "telefono": "555-100-0010",
+    "email": "ricardo.gomez@example.com",
+    "estado": "Activo",
+    "created_at": "2026-05-19T00:00:00.000Z",
+    "updated_at": "2026-05-19T00:00:00.000Z"
+  }
+]
